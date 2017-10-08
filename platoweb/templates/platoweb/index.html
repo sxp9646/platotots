@@ -1,0 +1,759 @@
+<!doctype html>
+<!--[if IE]><![endif]-->
+<!--[if lt IE 7 ]> <html lang="en" class="ie6">    <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="ie7">    <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="ie8">    <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="ie9">    <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Platotots</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {% load static %}
+
+        <!-- Favicon
+		============================================ -->
+		<link rel="shortcut icon" type="image/x-icon" href="{% static 'img/favicon.ico' %}">
+
+		<!-- Bootstrap CSS
+		============================================ -->      
+        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+		
+		<!-- font-awesome.min CSS
+		============================================ -->      
+        <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+		
+		<!-- owl.carousel CSS
+		============================================ -->      
+        <link rel="stylesheet" href="{% static 'css/owl.carousel.css' %}">
+        
+		<!-- owl.theme CSS
+		============================================ -->      
+        <link rel="stylesheet" href="{% static 'css/owl.theme.css' %}">
+           	
+		<!-- owl.transitions CSS
+		============================================ -->      
+        <link rel="stylesheet" href="{% static 'css/owl.transitions.css' %}">
+
+        <!-- nivo-slider CSS
+		============================================ -->      
+        <link rel="stylesheet" href="{% static 'css/nivo-slider.css' %}">
+		
+		<!-- animate CSS
+		============================================ -->         
+        <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+
+        <!-- magnific-popup CSS
+        ============================================ -->         
+        <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+
+        <!-- meanmenu min CSS
+        ============================================ -->         
+        <link rel="stylesheet" href="{% static 'css/meanmenu.min.css' %}">
+		
+		<!-- main CSS
+		============================================ -->
+        <link rel="stylesheet" href="{% static 'css/main.css' %}">
+		
+		<!-- style CSS
+		============================================ -->          
+        <link rel="stylesheet" href="{% static 'style.css' %}">
+        
+        <!-- responsive CSS
+		============================================ -->          
+        <link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+		
+        <script src="{% static 'js/vendor/modernizr-2.8.3.min.js' %}"></script>
+
+        <!-- Color Css Files Start
+        <link rel="alternate stylesheet" type="text/css" href="switcher/color-one.css" title="color-one" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/color-two.css" title="color-two" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/color-three.css" title="color-three" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/color-four.css" title="color-four" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/color-five.css" title="color-five" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/color-six.css" title="color-six" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/color-seven.css" title="color-seven" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/color-eight.css" title="color-eight" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/color-nine.css" title="color-nine" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/color-ten.css" title="color-ten" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/color-eleven.css" title="color-eleven" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/color-twelv.css" title="color-twelve" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/pattren1.css" title="pattren1" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/pattren2.css" title="pattren2" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/pattren3.css" title="pattren3" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/pattren4.css" title="pattren4" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/pattren5.css" title="pattren5" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/background1.css" title="background1" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/background2.css" title="background2" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/background3.css" title="background3" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/background4.css" title="background4" media="screen" />
+        <link rel="alternate stylesheet" type="text/css" href="switcher/background5.css" title="background5" media="screen" />
+         Color Css Files End -->
+
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+		
+		<!-- Start main area -->
+        <div class="main-area">
+        	<!-- Start header -->
+        	<header>
+        		<!-- Start main menu area -->
+                <div class="main-menu-area" id="sticker">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <div class="logo ptb-32">
+                                    <a href="index.html">
+                                        <img src="img/logo.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-9">
+                                <div class="main-menu">
+                                    <nav>
+                                        <ul>
+                                            <li><a href="#">Services</a>
+                                                <ul class="drop-menu">
+                                                    <li><a href="index.html">Home 1</a></li>
+                                                    <li><a href="index-animate.html">Home 2</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="about.html">Support</a></li>
+                                            <li class="mega-menu"><a href="#">Volunteers</a> 
+                                            <li><a href="events.html">About</a></li>
+                                            <li><a href="#">Impact</a>
+                                                <ul class="drop-menu">
+                                                    <li><a href="blog.html">Blog</a></li>
+                                                    <li><a href="blog-sidebar-right.htxml">Blog sidebar Right</a></li>
+                                                    <li><a href="blog-sidebar-left.html">Blog sidebar Left</a></li>
+                                                    <li><a href="blog-details.html">Blog Details</a></li>
+                                                    <li><a href="blog-details-sidebar-right.html">Blog Details Sidebar Right</a></li>
+                                                    <li><a href="blog-details-sidebar-left.html">Blog Details Sidebar Left</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">Contact</a>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <div class="donate-button ptb-32">
+                                    <a class="waves-effect waves-light" href="#">Donate</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        		<!-- End main menu area -->
+                <!-- Start mobile menu -->
+                <div class="mobile-menu-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="mobile-menu">
+                                <nav id="dropdown">
+                                            <ul class="nav">
+                                            <li><a href="services.html">Services</a></li>
+                                            <li><a href="events.html">Support</a></li>
+                                            <li><a href="events.html">Volunteers</a></li>
+                                            <li><a href="events.html">About Us</a></li>
+                                            <li><a href="events.html">Impact</a></li>
+                                            <li><a href="events.html">Contact</a></li>
+                                        
+                                        </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End mobile menu -->
+        	</header>
+        	<!-- End header -->
+        	<!-- Start slider area -->
+        	<section class="slider-area">
+        		<!-- start enable -->
+				<div class="ma-banner7-container">
+		        	<div class="container-slider">
+			        	<div class="flexslider ma-nivoslider">
+		        			<div class="ma-loading"></div>
+							<div id="ma-inivoslider-banner7" class="slides">
+								<img style="display: none;" src="{% static 'img/slider/slide-1.jpg' %}" alt="" title="#banner7-caption1"  />
+								<img style="display: none;" src="{% static 'img/slider/slide-2.jpg' %}" alt="" title="#banner7-caption2"  />
+                                <img style="display: none;" src="{% static 'img/slider/slide-3.jpg' %}" alt="" title="#banner7-caption3"  />
+							</div>			
+							<div id="banner7-caption1" class="banner7-caption nivo-html-caption nivo-caption">
+								<div class="timethai" style=" 
+									position:absolute;
+									bottom:0;
+									left:0;
+									background-color: rgba(255, 255, 255, 0.6);
+									height:5px;
+									-Charitykit-animation: myfirst 5000ms ease-in-out;
+									-moz-animation: myfirst 5000ms ease-in-out;
+									-ms-animation: myfirst 5000ms ease-in-out;
+									animation: myfirst 5000ms ease-in-out;
+								   ">
+							    </div>
+								<div class="banner7-content slider-1 hidden-xs">
+									<h1 class="title1 wow slideInRight" data-wow-duration="1s" data-wow-delay="300ms">WE CAN HELP SOMEONE</h1>
+									<p class="wow slideInRight" data-wow-duration="1s" data-wow-delay="600ms">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis ante commodo, dictum lectus suscipit. Quisque nec ullamcorper elit, nec fermentum metus.</p>
+									<div class="slider-button-area wow slideInRight" data-wow-duration="1s" data-wow-delay="900ms">
+										<a href="#" class="btn-lg">DONATE NOW</a>
+										<a href="#" class="btn-lg">LEARN MORE</a>
+									</div>				
+								</div>
+							</div>	
+							<div id="banner7-caption2" class="banner7-caption nivo-html-caption nivo-caption">
+								<div class="timethai" style=" 
+									position:absolute;
+									bottom:0;
+									left:0;
+									background-color: rgba(255, 255, 255, 0.6);
+									height:5px;
+									-Charitykit-animation: myfirst 5000ms ease-in-out;
+									-moz-animation: myfirst 5000ms ease-in-out;
+									-ms-animation: myfirst 5000ms ease-in-out;
+									animation: myfirst 5000ms ease-in-out;">
+							    </div>
+								<div class="banner7-content slider-1 hidden-xs">
+                                    <h1 class="title1 wow slideInRight" data-wow-duration="1s" data-wow-delay="300ms">WE CAN HELP SOMEONE</h1>
+                                    <p class="wow slideInRight" data-wow-duration="1s" data-wow-delay="600ms">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis ante commodo, dictum lectus suscipit. Quisque nec ullamcorper elit, nec fermentum metus.</p>
+                                    <div class="slider-button-area wow slideInRight" data-wow-duration="1s" data-wow-delay="900ms">
+                                        <a href="#" class="btn-lg">DONATE NOW</a>
+                                        <a href="#" class="btn-lg">LEARN MORE</a>
+                                    </div>              
+                                </div>
+							</div>
+                            <div id="banner7-caption3" class="banner7-caption nivo-html-caption nivo-caption">
+                                <div class="timethai" style=" 
+                                    position:absolute;
+                                    bottom:0;
+                                    left:0;
+                                    background-color: rgba(255, 255, 255, 0.6);
+                                    height:5px;
+                                    -Charitykit-animation: myfirst 5000ms ease-in-out;
+                                    -moz-animation: myfirst 5000ms ease-in-out;
+                                    -ms-animation: myfirst 5000ms ease-in-out;
+                                    animation: myfirst 5000ms ease-in-out;
+                                   ">
+                                </div>
+                                <div class="banner7-content slider-1 hidden-xs">
+                                    <h1 class="title1 wow slideInRight" data-wow-duration="1s" data-wow-delay="300ms">WE CAN HELP SOMEONE</h1>
+                                    <p class="wow slideInRight" data-wow-duration="1s" data-wow-delay="600ms">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis ante commodo, dictum lectus suscipit. Quisque nec ullamcorper elit, nec fermentum metus.</p>
+                                    <div class="slider-button-area wow slideInRight" data-wow-duration="1s" data-wow-delay="900ms">
+                                        <a href="#" class="btn-lg">DONATE NOW</a>
+                                        <a href="#" class="btn-lg">LEARN MORE</a>
+                                    </div>              
+                                </div>
+                            </div>
+						</div>
+		    		</div>
+				</div>
+		    	<!-- end enable -->
+        	</section>
+        	<!-- End slider area -->
+            <!-- Start our couses area -->
+        	<section class="our-couses-area pt-90 pb-90">
+        		<div class="container">
+        			<div class="row">
+                        <!-- Start section title -->
+        				<div class="col-sm-12">
+        					<div class="section-title text-center">
+        						<h2>WHAT <span>WE</span> DO</h2>
+        						<img src="{% static 'img/title-bottom.png' %}" alt="">
+        					</div>
+        				</div>
+                        <!-- End section title -->
+        				<div class="couses">
+                            <!-- Start single couses -->
+        					<div class="col-sm-4">
+        						<div class="single-couses">
+        							<div class="single-couses-image-text">
+                                    <div class="couses-image">
+                                            <img src="{% static 'img/couses/mechai-school.jpg' %}" alt="">
+                                        </div>
+                                        <div class="couses-text text-center">
+                                            <h3>Offer Pro Bono Consultancy Services</h3>
+                                            <p>.</p>
+                                        </div>
+        							</div>
+        						</div>
+        					</div>
+                            <!-- End single couses -->
+                            <!-- Start single couses -->
+                            <div class="col-sm-4">
+                                <div class="single-couses">
+                                    <div class="single-couses-image-text">
+                                        <div class="couses-image">
+                                            <img src="{% static 'img/couses/mechai-birdseye.jpg' %}" alt="">
+                                        </div>
+                                        <div class="couses-text text-center">
+                                            <h3>Improve Public Education Infrastructure</h3>
+                                            <p>.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End single couses -->
+                            <!-- Start single couses -->
+                            <div class="col-sm-4">
+                                <div class="single-couses">
+                                    <div class="single-couses-image-text">
+                                        <div class="couses-image">
+                                            <img src="{% static 'img/couses/mechai-students.jpg' %}" alt="">
+
+                                        </div>
+                                        <div class="couses-text text-center">
+                                            <h3>Bring English to Thai Children Nationwide</h3>
+                                            <p>.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End single couses -->
+        				</div>
+        			</div>
+        		</div>
+        	</section>
+            <!-- End our couses area -->
+            <!-- Start help us area -->
+            <section class="help-us-area pt-80 pb-80">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="section-title-style-two text-center">
+                                <h2>HOW YOU CAN HELP</h2>
+                            </div>
+                        </div>
+                        <div class="help-us-content-area">
+                            <!-- Start single help -->
+                            <div class="col-sm-4">
+                                <div class="single-help">
+                                    <div class="help-icon">
+                                        <i class="fa fa-university" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="help-text">
+                                        <h3>Donate</h3>
+                                        <p>Lorem ipsum dolor sit amet, risus adipiscing elit. Praesent laoreet condimentum quam, sit amet congue risus lobortis quis.</p>
+                                        <a href="" class="btn-sm bo-ra-3">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End single help -->
+                            <!-- Start single help -->
+                            <div class="col-sm-4">
+                                <div class="single-help">
+                                    <div class="help-icon">
+                                        <i class="fa fa-money" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="help-text">
+                                        <h3>Fundraise</h3>
+                                        <p>Lorem ipsum dolor sit amet, risus adipiscing elit. Praesent laoreet condimentum quam, sit amet congue risus lobortis quis.</p>
+                                        <a href="" class="btn-sm bo-ra-3">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End single help -->
+                            <!-- Start single help -->
+                            <div class="col-sm-4">
+                                <div class="single-help">
+                                    <div class="help-icon">
+                                        <i class="fa fa-users" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="help-text">
+                                        <h3>Volunteer</h3>
+                                        <p>Lorem ipsum dolor sit amet, risus adipiscing elit. Praesent laoreet condimentum quam, sit amet congue risus lobortis quis.</p>
+                                        <a href="" class="btn-sm bo-ra-3">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End single help -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End help us area -->
+
+            <!-- Start our volunteers area -->
+            <section class="our-volunteers-area pt-90 pb-90">
+                <div class="container">
+                    <div class="row">
+                        <!-- Start section title -->
+                        <div class="col-sm-12">
+                            <div class="section-title text-center">
+                                <h2>OUR <span>CORE</span> VALUES</h2>
+                                <img src="{% static 'img/title-bottom.png' %}" alt="">
+                            </div>
+                        </div>
+                        <!-- End section title -->
+                        <div class="our-volunteers">
+                            <!-- Start single volunteer -->
+                            <div class="col-sm-3">
+                                <div class="single-volunteer">
+                                    <div class="volunteer-image-and-social">
+                                        <img src="{% static 'img/volunteers/volunteers-one.jpg' %}" alt="">                                        
+                                        <div class="volunteer-social">
+                                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="volunteer-title text-center">
+                                        <h5>Farnado rotia</h5>
+                                        <p>Secretery</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End single volunteer -->
+                            <!-- Start single volunteer -->
+                            <div class="col-sm-3">
+                                <div class="single-volunteer">
+                                    <div class="volunteer-image-and-social">
+                                        <img src="{% static 'img/volunteers/volunteers-two.jpg' %}" alt="">
+                                        <div class="volunteer-social">
+                                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="volunteer-title text-center">
+                                        <h5>Serena sanion</h5>
+                                        <p>Secretery</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End single volunteer -->
+                            <!-- Start single volunteer -->
+                            <div class="col-sm-3">
+                                <div class="single-volunteer">
+                                    <div class="volunteer-image-and-social">
+                                        <img src="{% static 'img/volunteers/volunteers-three.jpg' %}" alt="">
+                                        <div class="volunteer-social">
+                                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="volunteer-title text-center">
+                                        <h5>Peterson smith</h5>
+                                        <p>Secretery</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End single volunteer -->
+                            <!-- Start single volunteer -->
+                            <div class="col-sm-3">
+                                <div class="single-volunteer">
+                                    <div class="volunteer-image-and-social">
+                                        <img src="{% static 'img/volunteers/volunteers-four.jpg' %}" alt="">
+                                        <div class="volunteer-social">
+                                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="volunteer-title text-center">
+                                        <h5>Anabari koy</h5>
+                                        <p>Secretery</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End single volunteer -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End our volunteers area -->
+            <!-- Start people says area -->
+            <section class="people-says-area pt-54 pb-20">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="people-asy-title text-center">
+                                <h2>WHAT PEOPLE THINK</h2>
+                                <img src="{% static 'img/title-bottom.png' %}" alt="">
+                            </div>
+                            <div class="people-say-slide">
+                                <!-- Start single people -->
+                                <div class="single-people text-center">
+                                    <div class="people-say-image">
+                                        <img src="{% static 'img/testimonial.jpg' %}" alt="">
+                                    </div>
+                                    <div class="peoplp-say-text text-center">
+                                        <p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit. Vestibulum varius semper ligula, et molestie metus.</p>
+                                        <h5>Zafari Jamith</h5>
+                                        <h6>Director</h6>
+                                    </div>
+                                </div>
+                                <!-- End single people -->
+                                <!-- Start single people -->
+                                <div class="single-people text-center">
+                                    <div class="people-say-image">
+                                        <img src="{% static 'img/testimonial.jpg' %}" alt="">
+                                    </div>
+                                    <div class="peoplp-say-text text-center">
+                                        <p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit. Vestibulum varius semper ligula, et molestie metus.</p>
+                                        <h5>Zafari Jamith</h5>
+                                        <h6>Director</h6>
+                                    </div>
+                                </div>
+                                <!-- End single people -->
+                                <!-- Start single people -->
+                                <div class="single-people text-center">
+                                    <div class="people-say-image">
+                                        <img src="{% static 'img/testimonial.jpg' %}" alt="">
+                                    </div>
+                                    <div class="peoplp-say-text text-center">
+                                        <p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit. Vestibulum varius semper ligula, et molestie metus.</p>
+                                        <h5>Zafari Jamith</h5>
+                                        <h6>Director</h6>
+                                    </div>
+                                </div>
+                                <!-- End single people -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End people says area -->
+
+                    </div>
+                </div>
+            </section>
+            <!-- End blog area -->
+            <!-- Start brand logo area -->
+            <section class="brand-logo-area pb-90">
+                <div class="container">
+                    <div class="row">
+                        <!-- Start section title -->
+                        <div class="col-sm-12">
+                            <div class="section-title text-center" style="padding-top: 80px;">
+                                <h2>OUR <span>SPONSORS</span></h2>
+                                <img src="{% static 'img/title-bottom.png' %}" alt="">
+                            </div>
+                        </div>
+                        <!-- End section title -->
+                        <!-- Start brand logo -->
+                        <div class="brand-logo">
+                            <div class="col-sm-2">
+                                <div class="b-logo">
+                                    <a href="http://psdrightsell.com/"><img src="{% static 'img/brand-logo/b-logo-one.png' %}" alt="psdrightsell"></a>
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <div class="b-logo">
+                                    <a href="http://hastech.company/"><img src="{% static 'img/brand-logo/b-logo-two.png' %}" alt="hastech"></a>
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <div class="b-logo">
+                                    <a href="https://devitems.com/"><img src="{% static 'img/brand-logo/b-logo-three.png' %}" alt="devitems"></a>
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <div class="b-logo">
+                                    <a href="https://themeforest.net/user/power-boosts"><img src="{% static 'img/brand-logo/b-logo-four.png' %}" alt="power boosts"></a>
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <div class="b-logo">
+                                    <a href="https://themeforest.net/user/hastech/portfolio"><img src="{% static 'img/brand-logo/b-logo-five.png' %}" alt="hastech"></a>
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <div class="b-logo">
+                                    <a href="https://themeforest.net/user/codecarnival"><img src="{% static 'img/brand-logo/b-logo-six.png' %}" alt="codecarnival"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End brand logo -->
+                    </div>
+                </div>
+            </section>
+            </div>
+            <!-- End brand logo area -->
+            <!-- Start footer -->
+
+             <footer>
+                <div class="footer-top pt-50 pb-50" style="background: #232323 none repeat scroll 0 0; padding-top: 50px; padding-bottom: 50px;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="footer-widget-area">
+                                <!-- Start footer widget -->
+                                <div class="col-sm-4">
+                                    <div class="footer-widget widget-one">
+                                        <div class="widget-contact-content" style="color: #fff; margin-bottom: 45px; position: relative;">
+                                            <h3 style="font-size: 18px; font-weight: bold;">CONTACT US</h3>
+                                            <p><a style="color: #fff;" href="tel:+0012345678">Phone :  +(00) 1234-5678</a></p>
+                                            <p><a style="color: #fff;" href="mailto:info@granttheme.com">Email :  info@granttheme.com</a></p>
+                                            <p>Address :  122, New road, South Zone Country.</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- End footer widget -->
+                                <!-- Start footer widget -->
+                                <div class="col-sm-2">
+                                    <div class="footer-widget widget-two">
+                                        <div class="footer-widget-title" style="color: #fff; margin-bottom: 15px; position: relative;">
+                                            <h3 style="font-size: 18px; font-weight: bold;">OUR PROJECT</h3>
+                                        </div>
+                                        <nav>
+                                            <ul>
+                                                <li><a style="color:#fff" href="#"><style>li:hover {opacity: 0.8;}</style></i>Water Surve</a></li>
+                                                <li><a style="color:#fff" href="#">Education for all</a></li>
+                                                <li><a style="color:#fff" href="#">Treatment</a></li>
+                                                <li><a style="color:#fff" href="#">Food Serving</a></li>
+                                                <li><a style="color:#fff" href="#">Cloth</a></li>
+                                                <li><a style="color:#fff" href="#">Selter Project</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                                <!-- End footer widget -->
+                                <!-- Start footer widget -->
+                                <div class="col-sm-2">
+                                    <div class="footer-widget widget-two">
+                                        <div class="footer-widget-title" style="color: #fff; margin-bottom: 15px; position: relative;">
+                                            <h3 style="font-size: 18px; font-weight: bold;">QUCIK LINK</h3>
+                                        </div>
+                                        <nav>
+                                            <ul>
+                                                <li><a style="color:#fff" href="#"><style>li:hover {opacity: 0.8;}</style></i>Our Causes</a></li>
+                                                <li><a style="color:#fff" href="#"><style>li:hover {opacity: 0.8;}</style></i>Projects</a></li>
+                                                <li><a style="color:#fff" href="#"><style>li:hover {opacity: 0.8;}</style></i>Gallery</a></li>
+                                                <li><a style="color:#fff" href="#"><style>li:hover {opacity: 0.8;}</style></i>Terms of Use</a></li>
+                                                <li><a style="color:#fff" href="#"><style>li:hover {opacity: 0.8;}</style></i>Legal Disclaimer</a></li>
+                                                <li><a style="color:#fff" href="#"><style>li:hover {opacity: 0.8;}</style></i>Privacy Policy</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                                <!-- End footer widget -->
+                                <!-- Start footer widget -->
+                                <div class="col-sm-4">
+                                    <div class="footer-widget widget-four">
+                                        <div class="footer-widget-title" style="color: #fff; margin-bottom: 15px; position: relative;">
+                                            <h3 style="font-size: 18px; font-weight: bold;">NEWSLETTER</h3>
+                                        </div>
+                                        <div class="widget-about-content" style="color: #fff;">
+                                            <p>Select your newsletters, enter your email address, and click "Subscribe"</p>
+                                        </div>
+                                        <div class="newslater" style="margin-top: 39px;">
+                                            <form id="mc-form" class="mc-form form">
+                                                <input style="border: medium none; border-radius: 2px 0 0 2px; padding: 5px 10px;" id="mc-email" type="email" autocomplete="off"  placeholder="Email Address">
+                                                <button style="background: #0aaaa0 none repeat scroll 0 0; border: medium none; border-radius: 0 2px 2px 0; color: #ffffff; cursor: pointer;
+                                                display: inline-block; font-size: 14px; margin-left: -5px; padding: 5px; text-align: center; transition: all 0.3s ease 0s; 
+                                                width: 45px;" id="mc-submit" type="submit"><i class="fa fa-envelope" aria-hidden="true"><style>button:hover {opacity: 0.8;}</style></i></button>
+                                            </form>
+                                            <!-- mailchimp-alerts Start -->
+                                            <div class="mailchimp-alerts text-centre">
+                                                <div class="mailchimp-submitting"></div><!-- mailchimp-submitting end -->
+                                                <div class="mailchimp-success"></div><!-- mailchimp-success end -->
+                                                <div class="mailchimp-error"></div><!-- mailchimp-error end -->
+                                            </div><!-- mailchimp-alerts end -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End footer widget -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="background: #191919 none repeat scroll 0 0; padding-top:20px;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <div class="copyright">
+                                    <p style="color:#fff">Copyright &copy; 2017 PlatoTots.</p>
+                                </div>
+                            </div>  
+                            <div class="col-sm-4">
+                                <div style = "float:right;">
+                                    <nav>
+                                        <ul>
+                                            <li style="display: inline; padding: 0 7.5px;"><a style="color: #0AAAA0;
+                                                font-size: 12px;" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                            <li style="display: inline; padding: 0 7.5px;"><a style="color: #0AAAA0;
+                                                font-size: 12px;" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                            <li style="display: inline; padding: 0 7.5px;"><a style="color: #0AAAA0;
+                                                font-size: 12px;" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden-xs" id="back-top" style="display: block;"></div>
+                    </div>
+                </div>
+            </footer>
+            <!-- End footer -->
+ 
+            </div>
+        <!-- End main area -->
+
+		<!-- jquery-1.12.0.min js
+		============================================ -->  
+        <script src="{% static 'js/vendor/jquery-1.12.0.min.js' %}"></script>
+		
+		<!-- bootstrap js
+		============================================ -->         
+        <script src="{% static 'js/bootstrap.min.js' %}"></script>
+		
+		<!-- owl.carousel.min js
+		============================================ -->       
+        <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+
+        <!-- jquery.nivo.slider.pack js
+		============================================ -->       
+        <script src="{% static 'js/jquery.nivo.slider.pack.js' %}"></script>
+
+        <!-- jquery.mixitup.min js
+        ============================================ -->       
+        <script src="{% static 'js/jquery.mixitup.min.js' %}"></script>
+
+        <!-- jquery.magnific-popup.min js
+        ============================================ -->       
+        <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+
+        <!-- jquery.meanmenu js
+        ============================================ -->       
+        <script src="{% static 'js/jquery.meanmenu.js' %}"></script>
+
+        <!-- jquery.syotimer.min js
+        ============================================ -->       
+        <script src="{% static 'js/jquery.syotimer.min.js' %}"></script>
+	
+		<!-- wow js
+		============================================ -->       
+        <script src="{% static 'js/wow.js' %}"></script>
+		
+        <!-- jquery.scrollUp.min js
+        ============================================ -->       
+        <script src="{% static 'js/jquery.scrollUp.min.js' %}"></script>
+        
+        <!-- jquery.ajaxchimp.min js
+        ============================================ -->       
+        <script src="{% static 'js/jquery.ajaxchimp.min.js' %}"></script>
+      
+        <!-- plugins js
+		============================================ -->         
+        <script src="{% static 'js/plugins.js' %}"></script>
+
+
+        <script>
+        	new WOW().init();
+        </script>
+
+        <!-- styleswitch js
+        ============================================ -->       
+        <script src="{% static 'js/styleswitch.js' %}"></script>
+
+   		<!-- main js
+		============================================ -->           
+        <script src="{% static 'js/main.js' %}"></script>
+    </body>
+</html>
